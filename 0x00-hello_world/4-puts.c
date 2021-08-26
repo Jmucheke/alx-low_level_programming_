@@ -5,10 +5,9 @@
  * String initialisation
  * writing strin to standard output
  */
-int main()
+int main(void)
 {
-	char my_str[] = "Programming is like building a multilingual puzzle";
-	puts(my_str);
+	puts("\"Programming is like building a multilingual puzzle");
 
 	return (0);
 }
