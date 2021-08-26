@@ -2,8 +2,7 @@
 
 /**
  * main - Entry point
- * write function to perform the stdout
- * 
+ *
  * Return: Always 0 (Success)
  */
 int main(void)
