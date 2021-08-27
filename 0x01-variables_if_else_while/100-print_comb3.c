@@ -1,26 +1,26 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
+
 /**
  * main - Entry point
  *
- * Return: Always 0 (Success)
+ * Return: 0 if (success)
  */
 int main(void)
 {
+	int i;
 	int j;
 
-	for (j = 0; j < 90; j++)
+	for (i = 48; i < 57; i++)
 	{
-		for ()
+		for (j = i + 1; j < 58; j++)
 		{
-			putchar((j / 10) + '0');
-			putchar((j % 10) + '0');
-		}
-		if (j != 89)
-		{
-			putchar(',');
-			putchar(' ');
+			putchar(i);
+			putchar(j);
+			if (i != 56 || j != 57)
+			{
+				putchar(',');
+				putchar(' ');
+			}
 		}
 	}
 	putchar('\n');
