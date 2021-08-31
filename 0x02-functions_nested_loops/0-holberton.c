@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * main - a simple program that outputs "Holberton"
@@ -6,13 +7,11 @@
  */
 int main(void)
 {
-	char str[] = "Holberton";
+	char str[] = "Holberton\n";
 	int i = 0;
 
 	while (str[i] != '\0')
-		_putchar([i]);
-		i++;
-	_putchar("\n");
+		_putchar(str[i++]);
 	return (0);
 }
 
