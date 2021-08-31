@@ -1,14 +1,16 @@
-#include <stdio.h>
+#include "holberton.h"
 
 /**
- * Main - Entry point
- *
- * Return 0 on (Success)
+ * main - program that prints "Holberton"
+ * Return: 0 on success
  */
-
 int main(void)
 {
-	printf("Holberton");
+	char str[] = "Holberton\n";
+	int i = 0;
+
+	while (str[i] != '\0')
+		_putchar(str[i++]);
 	return (0);
 }
 
