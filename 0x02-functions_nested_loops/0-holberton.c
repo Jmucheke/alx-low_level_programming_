@@ -1,14 +1,16 @@
 #include "main.h"
 
 /**
- * main - program that prints "Holberton"
+ * main - a simple program that outputs "Holberton"
  * Return: 0 on success
  */
 int main(void)
 {
-	char str[] = "Holberton";
-	_putchar(str);
+	char str[] = "Holberton\n";
+	int i = 0;
 
-	return (1);
+	while (str[i] != '\0')
+		_putchar(str[i++]);
+	return (0);
 }
 
