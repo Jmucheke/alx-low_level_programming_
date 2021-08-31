@@ -8,9 +8,12 @@ int main(void)
 {
 	char str[] = "Holberton\n";
 	int i = 0;
+	char j;
 
-	while (str[i] != '\0')
-		_putchar(str[i++]);
+	while (i <= 9)
+		j = str[i];
+		_putchar(j);
+		i++
 	return (0);
 }
 
