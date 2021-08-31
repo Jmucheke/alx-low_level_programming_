@@ -1,4 +1,4 @@
-#includ8e "main.h"
+#include "main.h"
 
 /**
  * _printstr - prints a given string

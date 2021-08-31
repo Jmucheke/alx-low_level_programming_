@@ -7,10 +7,7 @@
 int main(void)
 {
 	char str[] = "Holberton";
-	int i = 0;
-
-	while (str[i] != '\0')
-		_putchar(str[i++]);
+	_putchar(str);
 
 	return (1);
 }
