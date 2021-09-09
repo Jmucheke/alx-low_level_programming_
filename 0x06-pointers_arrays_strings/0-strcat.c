@@ -1,28 +1,28 @@
-#include "main.h"
-#include <stdio.h>
+#include <main.h>
 
 /**
- * main - check the code
+ * _strcat - function with two argument
+ * @dest: char type pointer 1st argument
+ * @src: char type pointer 2nd argument
  *
- * Return: Always 0.
+ * Description: concatenates two strings
+ * Return: na
  */
-char *_strcat(char *dest, char *src);
-int main(void)
-{
-    	char s1[98] = "Hello ";
-    	char s2[] = "World!\n";
-    	char *ptr;
-
-    	printf("%s\n", s1);
-    	printf("%s", s2);
-    	ptr = _strcat(s1, s2);
-    	printf("%s", s1);
-    	printf("%s", s2);
-    	printf("%s", ptr);
-    	return (0);
-}
 char *_strcat(char *dest, char *src)
 {
-	str(dest, src);
-	return (dest);
+	char *start = dest;
+
+	while (*dest != '\0')
+	{
+		dest++;
+	}
+	while (*src != '\0')
+	{
+		*dest = *src;
+		dest++;
+		src++;
+	}
+	*dest = '\0';
+	return (start);
 }
+
