@@ -1,0 +1,9 @@
+More task on pointers, arrays and strings
+The projects include:
+0. strcat - concatinates strings.
+1. strncat - concatenates strings usong a given number of bytes.
+2. strncpy - function that copies a string.
+3. strcmp - function that compares two strings.
+4. I am a kind of paranoid in reverse. I suspect people of plotting to make me happy - a function that reverses the content of an array of integers.
+5. Always look up - a function that changes all lowercase letters of a string to upppercase.
+6. Expect the best. Prepare for the worst. Capitalize on what co
