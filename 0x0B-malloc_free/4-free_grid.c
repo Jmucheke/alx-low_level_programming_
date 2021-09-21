@@ -1,4 +1,6 @@
-#include "stdlib.h"
+#include <stdlib.h>
+#include <stdio.h>
+#include "main.h"
 
 /**
  * free_grid - function with two arguments
